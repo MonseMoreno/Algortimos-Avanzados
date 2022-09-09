@@ -12,7 +12,7 @@ public:
 
 
 	CMergeSort();
-	CMergeSort(int left, int mid, int right, int A[20]);
+	CMergeSort(int left, int mid, int right, int A[20]); // Variables de movimiento
 	void merge_sort(int izquierda, int derecha);
 	void merge(int izquierda, int medio, int derecha);
 
