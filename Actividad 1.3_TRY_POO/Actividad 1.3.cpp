@@ -12,12 +12,12 @@ int main() {
     cout << "************************************************************" << endl;
     cout << "*********************  Actividad 1.3  **********************" << endl;
     cout << "************************************************************" << endl;
-  
+
     cout << "\nEscribe el número de monedas a ingresar: ";
     int n;
     cin >> n;
     int monedas[n];
-   
+
 
     cout << "\n***** Escriba el valor de las monedas *****\n" << endl;
 
@@ -42,7 +42,7 @@ int main() {
     cout << "1. Algoritmo de programación avara" << endl;
     cout << "2. Algoritmo de programación dinámica" << endl;
     cout << "**************************************************" << endl;
-   
+
     CAlgoritmos Objeto(monedas, q - p, n);
 
     do {
